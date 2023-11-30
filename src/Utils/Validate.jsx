@@ -14,7 +14,7 @@ const Validate = ({ title, veriation }) => {
             className="mb-5"
             placeholder="Enter 6 digit code sent to your email address"
           />
-          <div className="d-flex gap-3">
+          <div className="d-flex align-items-center flex-wrap gap-3">
             <button className="fs-5 p-3 w-100">Validate</button>
             <button className="fs-5 p-3 w-100">Resend {veriation}</button>
           </div>
