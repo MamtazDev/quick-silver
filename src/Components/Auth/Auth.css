@@ -1,5 +1,5 @@
 .auth {
-    height: 100vh;
+    height: 100vh !important;
 }
 
 .auth .right_side {

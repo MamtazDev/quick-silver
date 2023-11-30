@@ -9,14 +9,14 @@ const SignIn = () => {
       <div className="signIn">
         <div className="d-flex justify-content-end gap-2 align-items-center">
           <p className="dont fs-6">Don’t have any account?</p>{" "}
-          <Link to="/signup" className="signUn_btn fs_20">
+          <Link to="/sign-up" className="signUn_btn fs_20">
             Sign Up
           </Link>
         </div>
         <form>
           <h2 className="fs-2">Sign In</h2>
           <p className="fs-6 subtitle">To continue to the system</p>
-          <div>
+          <div className="mb-4">
             <label className="fs-6" htmlFor="email">
               Email Address
             </label>
@@ -26,6 +26,18 @@ const SignIn = () => {
               name="email"
               id="email"
               placeholder="Enter your email address"
+            />
+          </div>
+          <div>
+            <label className="fs-6" htmlFor="password">
+              Password
+            </label>
+            <input
+              className="mb-2"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter your password"
             />
             <Link to="#" className="forgot fs_14">
               Forgot password?

@@ -5,8 +5,8 @@ import girl from "../assets/girl.png";
 const AuthLayout = ({ children }) => {
   return (
     <div className="auth">
-      <div className="row h-100 m-0">
-        <div className="col-lg-6 right_side h-100 d-flex flex-column align-items-start justify-content-between ">
+      <div className="row  m-0" style={{height:"100%"}}>
+        <div className="col-lg-6 right_side  d-flex flex-column align-items-start justify-content-between" style={{height:"100%"}}>
           <img src={logo} alt="" />
           <div className="d-flex justify-content-center w-100">
             <img className="img-fluid" src={girl} alt="" />
