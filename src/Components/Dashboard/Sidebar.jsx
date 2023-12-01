@@ -18,7 +18,7 @@ const Sidebar = () => {
         <img src={logo} alt="" />
       </div>
       {sidebarElement.map((data, index) => (
-        <div className="ppppp" key={index}>
+        <div key={index}>
           <Link
             onClick={() => handleDropdownClick(index)}
             to="#"
@@ -28,7 +28,7 @@ const Sidebar = () => {
               <img src={data.pic} alt="" />
               <p>{data.title}</p>
             </div>
-            {data.dropdown && <img src={arrow} alt="" />}
+            {data.dropdown && <img className={openIndex === index && "arrow"} src={arrow} alt="" />}
           </Link>
           {openIndex === index &&
             data.subtitle?.map((subData, subIndex) => (

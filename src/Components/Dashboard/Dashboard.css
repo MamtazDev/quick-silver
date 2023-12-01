@@ -13,7 +13,6 @@
 }
 
 .sidebar a {
-    text-decoration: none;
     color: #B5D1E0;
     margin: 20px;
 }
@@ -78,4 +77,8 @@
 .sidebar .subLink.active {
     border-radius: 6px;
     background: #0F323D;
+}
+
+.sidebar .arrow {
+    transform: rotate(180deg);
 }
