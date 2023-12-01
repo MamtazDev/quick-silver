@@ -95,7 +95,7 @@ const SignUp = () => {
             />
           </div>
 
-          <button className="signIn_btn fs-5">Create account </button>
+          <button className="signIn_btn fs-5 mb-5">Create account </button>
         </form>
         <div></div>
       </div>

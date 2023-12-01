@@ -1,0 +1,81 @@
+.sidebar {
+    width: 290px;
+    background: #0D2330;
+    height: 100vh;
+
+}
+
+.sidebar .logo {
+    padding: 12px 30px;
+    border-bottom: 1px solid #183748;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #B5D1E0;
+    margin: 20px;
+}
+
+.sidebar .link.active {
+    border-radius: 1px 6px 6px 1px;
+    background: #1E4C5A;
+    position: relative;
+    z-index: 10000;
+}
+
+.sidebar .link.active::before {
+    position: absolute;
+    content: '';
+    border-radius: 6px;
+    background: var(--secondary-color-3rd-secondary-3rd-secondary-color, #B9DCE6);
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.sidebar .link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding: 15px 22px;
+}
+
+.sidebar .subLink {
+    font-weight: 400;
+    padding: 12px 15px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.sidebar .subLink::after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 70px;
+    background-color: #777A9E;
+    bottom: 50%;
+    left: -24px;
+    z-index: 9999;
+
+}
+
+.sidebar .subLink::before {
+    position: absolute;
+    content: '';
+    width: 24px;
+    height: 1px;
+    background-color: #777A9E;
+    top: 50%;
+    left: -24px;
+}
+
+.sidebar .subLink.active {
+    border-radius: 6px;
+    background: #0F323D;
+}
