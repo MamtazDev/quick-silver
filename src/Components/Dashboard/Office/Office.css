@@ -37,3 +37,14 @@ table td.date::before {
 
 
 }
+
+li.recharts-legend-item {
+    margin-right: 60px !important;
+}
+
+span.recharts-legend-item-text {
+    color: var(--primary-1st-primary-color-primary-color, #191E29) !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
