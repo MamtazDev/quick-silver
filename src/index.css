@@ -21,8 +21,10 @@ a{
 button {
     border: none;
 }
-
-input:focus-visible {
+select{
+    border: 0;
+}
+input:focus-visible,select:focus-visible {
     outline: none;
 }
 

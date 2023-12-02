@@ -5,11 +5,11 @@ import Header from "../Components/Shared/Header";
 
 const DashboardLayout = () => {
   return (
-    <div className="d-flex">
+    <div style={{ height: "100vh" }} className="d-flex">
       <div className="flex-shrink-0">
         <Sidebar />
       </div>
-      <div className="w-100">
+      <div style={{ overflowY: "scroll" }} className="w-100">
         <Header />
         <Outlet />
       </div>

@@ -28,7 +28,7 @@ export const router = createBrowserRouter([
     element: <DashboardLayout />,
     children: [
       {
-        path: "/dashboard/office",
+        path: "/dashboard",
         element: <Office />,
       },
     ],

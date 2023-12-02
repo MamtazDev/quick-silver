@@ -48,3 +48,21 @@ span.recharts-legend-item-text {
     font-size: 16px;
     font-weight: 700;
 }
+
+.office_entries p {
+    color: var(--primary-1st-primary-color-primary-color, #191E29);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+select {
+    border-radius: 7px;
+    background: #F8F9FD;
+    color: var(--secondary-color-2nd-secondary-color-shade-02, #4C6C78);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 13px 20px;
+}

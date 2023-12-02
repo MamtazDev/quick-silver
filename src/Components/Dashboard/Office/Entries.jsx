@@ -4,7 +4,7 @@ import { officeEntries } from "../../../Utils/SidebarElement";
 
 const Entries = () => {
   return (
-    <div>
+    <div className="office_entries">
       <table className="fs_14">
         <thead>
           <tr>
@@ -31,6 +31,7 @@ const Entries = () => {
           ))}
         </tbody>
       </table>
+      <p className="fs_14">Showing 5 to 5 of 5 entries</p>
     </div>
   );
 };
