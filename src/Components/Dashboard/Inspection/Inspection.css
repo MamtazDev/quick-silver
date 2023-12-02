@@ -46,3 +46,33 @@
     border-radius: 5px;
     bottom: 0;
 }
+
+.inspection_body {
+    background-color: #FAFDFF;
+    padding: 30px;
+}
+
+.inspection_body input,
+.inspection_body select {
+    padding: 10px 20px;
+}
+
+.btn_set {
+    margin: 40px 0;
+}
+
+.cancel_btn {
+    border-radius: 10px;
+    background: #E8ECEF;
+    color: var(--primary-1st-primary-color-primary-color, #191E29);
+    font-weight: 600;
+    padding: 17px 46px;
+}
+
+.search_btn {
+    border-radius: 10px;
+    background: var(--secondary-color-2nd-secondary-color-2nd-secondary-color, #1E4C5A);
+    color: #FFF;
+    font-weight: 600;
+    padding: 17px 46px;
+}
