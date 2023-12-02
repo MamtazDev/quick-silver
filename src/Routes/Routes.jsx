@@ -6,6 +6,7 @@ import ValidCell from "../Pages/ValidCell";
 import DashboardLayout from "../Layout/DashboardLayout";
 import Office from "../Pages/Office";
 import InspectionSearch from "../Pages/InspectionSearch";
+import NewInspection from "../Pages/NewInspection";
 
 export const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
       {
         path: "/dashboard/inspection/search",
         element: <InspectionSearch />,
+      },
+      {
+        path: "/dashboard/inspection/new-inspection",
+        element: <NewInspection />,
       },
     ],
   },
