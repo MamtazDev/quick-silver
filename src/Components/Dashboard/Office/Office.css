@@ -57,7 +57,7 @@ span.recharts-legend-item-text {
     padding-left: 30px;
 }
 
-select {
+.office_page select {
     border-radius: 7px;
     background: #F8F9FD;
     color: var(--secondary-color-2nd-secondary-color-shade-02, #4C6C78);

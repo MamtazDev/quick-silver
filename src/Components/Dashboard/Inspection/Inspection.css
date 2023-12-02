@@ -1,0 +1,12 @@
+.search_form {
+    padding: 30px;
+}
+
+.search_form button {
+    border-radius: 10px;
+    background: var(--secondary-color-2nd-secondary-color-2nd-secondary-color, #1E4C5A);
+    color: #FFF;
+    font-weight: 600;
+    padding: 16px 46px;
+    margin-bottom: 30px;
+}

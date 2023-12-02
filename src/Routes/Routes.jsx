@@ -5,6 +5,7 @@ import ValidEmail from "../Pages/ValidEmail";
 import ValidCell from "../Pages/ValidCell";
 import DashboardLayout from "../Layout/DashboardLayout";
 import Office from "../Pages/Office";
+import InspectionSearch from "../Pages/InspectionSearch";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Office />,
+      },
+      {
+        path: "/dashboard/inspection/search",
+        element: <InspectionSearch />,
       },
     ],
   },

@@ -11,7 +11,7 @@ const Office = () => {
     setSelectedDashboard(event.target.value);
   };
   return (
-    <div>
+    <div className="office_page">
       <div className="text-end mt-4 me-5 mb-4">
         <select onChange={handleDashboardChange}>
           <option disabled selected>
