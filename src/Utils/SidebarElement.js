@@ -102,3 +102,46 @@ export const officeEntries = [
     status: "Unassigned",
   },
 ];
+
+export const inspectionResult = [
+  {
+    insured: "James Smith",
+    assigned: "Jake Mangrove",
+    DueDate: "11/3/2023",
+    statusUpdate: 4,
+    attachment: 4,
+    status: "Open",
+  },
+  {
+    insured: "Margle Masin",
+    assigned: "Jake Mangrove",
+    DueDate: "11/3/2023",
+    statusUpdate: 3,
+    attachment: 3,
+    status: "Open",
+  },
+  {
+    insured: "Ralph Jacobs",
+    assigned: "Jake Mangrove",
+    DueDate: "11/3/2023",
+    statusUpdate: 2,
+    attachment: 2,
+    status: "Unassigned",
+  },
+  {
+    insured: "George Matson",
+    assigned: "Jake Mangrove",
+    DueDate: "11/3/2023",
+    statusUpdate: 0,
+    attachment: 0,
+    status: "On-Hold",
+  },
+  {
+    insured: "Pam Sparks",
+    assigned: "Jake Mangrove",
+    DueDate: "11/3/2023",
+    statusUpdate: 1,
+    attachment: 1,
+    status: "Open",
+  },
+];

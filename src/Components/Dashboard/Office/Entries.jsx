@@ -20,7 +20,7 @@ const Entries = () => {
         <tbody>
           {officeEntries.map((data, index) => (
             <tr key={index}>
-              <td className="date">{data.entryDate}</td>
+              <td className="dot">{data.entryDate}</td>
               <td>{data.dueDate}</td>
               <td>{data.assigned}</td>
               <td>{data.insured} </td>
@@ -31,7 +31,7 @@ const Entries = () => {
           ))}
         </tbody>
       </table>
-      <p className="fs_14">Showing 5 to 5 of 5 entries</p>
+      <p className="fs_14 table_result">Showing 5 to 5 of 5 entries</p>
     </div>
   );
 };

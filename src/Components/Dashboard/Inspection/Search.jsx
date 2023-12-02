@@ -23,7 +23,7 @@ const Search = () => {
             </label>
             <select id="assign">
               <option selected disabled>
-                Type here...
+              Assigned to
               </option>
               <option value="">A</option>
               <option value="">B</option>
