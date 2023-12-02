@@ -7,8 +7,11 @@ import action from "../../../assets/action.png";
 import history from "../../../assets/history.png";
 import "./Inspection.css";
 import Insured from "./Insured";
+import { useState } from "react";
+import Property from "./Property";
 
 const InspectionTab = () => {
+  const [activeTab, setActiveTab] = useState(0);
   const tabs = [
     {
       pic: insured,
@@ -44,6 +47,8 @@ const InspectionTab = () => {
       <div className="inspection_tab">
         {tabs.map((data, index) => (
           <div
+            onClick={() => setActiveTab(index)}
+            style={{ cursor: "pointer" }}
             className="d-flex gap-1 align-items-center tab fs-6 "
             key={index}
           >
@@ -54,8 +59,9 @@ const InspectionTab = () => {
       </div>
 
       <div className="inspection_body">
-        <Insured />
-      </div>
+        {activeTab === 0 && <Insured />}
+        {activeTab === 1 && <Property />}
+        </div>
     </div>
   );
 };

@@ -57,6 +57,14 @@
     padding: 10px 20px;
 }
 
+.inspection_body input::placeholder,
+.inspection_body select {
+    color: var(--primary-1st-primary-color-primary-color, #191E29);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .btn_set {
     margin: 40px 0;
 }

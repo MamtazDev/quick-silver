@@ -3,7 +3,7 @@ import "./Inspection.css";
 
 const Insured = () => {
   return (
-    <div className="insured">
+    <div>
       <form>
         <div className="row g-5">
           <div className="col-md-6 col-lg-3">
