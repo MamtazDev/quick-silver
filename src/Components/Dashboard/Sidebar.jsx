@@ -35,7 +35,7 @@ const Sidebar = () => {
               <div key={subIndex}>
                 <Link
                   className="subLink d-flex align-items-center gap-3 fs-6"
-                  to="#"
+                  to={subData?.path}
                 >
                   <img src={subData.pic} alt="" />
                   <p>{subData.title}</p>

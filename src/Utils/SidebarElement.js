@@ -22,6 +22,7 @@ export const sidebarElement = [
       {
         pic: search,
         title: "Search",
+        path:"/dashboard/inspection/search"
       },
       {
         pic: newInspection,

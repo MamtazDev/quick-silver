@@ -43,7 +43,9 @@ const SignIn = () => {
               Forgot password?
             </Link>
           </div>
-          <button className="signIn_btn fs-5">Sign In</button>
+          <Link to="/dashboard">
+            <button className="signIn_btn fs-5">Sign In</button>
+          </Link>
         </form>
         <div></div>
       </div>
