@@ -14,7 +14,7 @@ const Sidebar = () => {
 
   return (
     <div className="sidebar">
-      <Link to="/" className="logo d-block">
+      <Link to="/" className="logo d-inline-block">
         <img src={logo} alt="" />
       </Link>
       {sidebarElement.map((data, index) => (
