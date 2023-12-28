@@ -27,6 +27,7 @@ export const sidebarElement = [
       {
         pic: newInspection,
         title: "New Inspection",
+        path:"/dashboard/inspection/new-inspection"
       },
     ],
   },
